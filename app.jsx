@@ -247,9 +247,10 @@ function CategoryChart({ transactions }) {
       <div className="insights-list">
         {breakdown.map((item, index) => {
           const percent = ((item.amount / total) * 100).toFixed(1);
+          const colorIndex = index % colors.length;
           return (
             <div className="insight-card" key={item.category}>
-              <h3><span className="category-dot" style={{ color: colors[index % colors.length] }}>●</span> {item.category}</h3>
+              <h3><span className="category-dot" data-color={colorIndex}>●</span> {item.category}</h3>
               <p>{preciseCurrency(item.amount)} · {percent}% of expenses</p>
             </div>
           );
