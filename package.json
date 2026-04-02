@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "express": "^5.2.1",
+    "mkdir": "^0.0.2",
+    "mongodb": "^7.1.1",
+    "node.js": "^0.0.1-security",
+    "react": "^19.2.4"
+  }
+}
