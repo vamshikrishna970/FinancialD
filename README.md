@@ -2,20 +2,6 @@
 
 A responsive finance dashboard built with React.js and JavaScript. It uses mock data, simulated role-based UI behavior, reusable components, and `localStorage` persistence to demonstrate the assignment requirements without any backend dependency.
 
-## Features
-
-- Dashboard overview with summary cards for balance, income, expenses, and transaction count
-- Time-based visualization for monthly cash flow trends
-- Categorical visualization for expense breakdown by category
-- Transactions table with search, filtering, and sorting
-- Frontend-only role simulation:
-  - `Viewer` can explore data
-  - `Admin` can add, edit, and delete transactions
-- Insights panel with highest spending category, month-over-month comparison, and savings observation
-- Graceful empty states when filters remove all rows or charts have no data
-- Theme toggle and `localStorage` persistence for theme, role, filters, and transactions
-- Responsive layout for desktop, tablet, and mobile screens
-
 ## Project Structure
 
 - `/Users/vamshikrishna/Documents/New project/index.html` - app shell and UI structure
@@ -81,10 +67,3 @@ Then open [http://localhost:8000](http://localhost:8000).
 - Clean, responsive layout with empty states and clear visual hierarchy
 - Theme toggle for an extra usability touch
 - Visual permissions messaging so the active role is always obvious
-
-## Notes
-
-- Data is intentionally mocked for the assignment
-- Charts are built with inline SVG, so no charting library is required
-- React is loaded from CDN in `index.html`, which keeps setup simple for this assignment
-- If you want a fully reset demo state, clear browser storage for the page
